@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cerca un pokémon</h1>
+        <form id="formSearch">
+            <input id="inputSearch" type="search" placeholder="e.g. bulbasaur">
+            <a id="formBtn" class="button">Cerca</a>
+        </form>
+        <h2 class="mt-2">Ecco i tuoi risultati per</h2>
+        <div class="row">
+            <div class="column"><p>Nome: <span id="pkmnName"></span></p></div>
+            <div class="column"><p>Peso: <span id="pkmnWeight"></span></p></div>
+            <div class="column"><p>Altezza: <span id="pkmnHeight"></span></p></div>
+        </div>
+        <div class="bar mt-1 mb-1"></div>
+        <div class="row">
+            <div class="column column-40">
+                <img id="pkmnImg" src="" alt="">
+            </div>
+            <div class="column column-20">
+                <a id="default-img-btn" class="button button-outline">Default</a>
+                <a id="shiny-img-btn" class="button button-outline">Shiny</a>
+            </div>
+            <div class="column column-20">
+                <h4>Statistiche</h4>
+                <div id="stats">
+                    <!-- <div class="single-stat"> -->
+                        <!-- <h5 id="stats-name"></h5> -->
+                        <!-- <div id="stats-bar-base">
+                            <!-- <span id="stats-bar"></span> -->
+                        <!-- </div> --> 
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+        <a id="pokedex-btn" class="button">Aggiungilo al pokédex</a>
+        <div id="personal-pokedex" class="mt-1">
+            <h3>Il tuo pokédex</h3>
+            <div class="row" id="personal-pokemons">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

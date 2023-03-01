@@ -1,0 +1,68 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.row {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bar {
+    width: 100%;
+    height: 2px;
+    background-color: lightgrey;
+}
+
+#pkmnImg {
+    width: 300px;
+}
+
+.row {
+    align-items: center;
+}
+
+/* Stats */
+#stats-bar-base {
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: lightgray;
+    position: relative;
+}
+
+#stats-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 5px 0px 5px 5px;
+    background-color: #0275ff;
+}
+
+/* UTILITIES */
+.mb-1 {
+    margin-bottom: 1.5rem;
+}
+
+.mt-1 {
+    margin-top: 3rem;
+}
+
+.mt-2 {
+    margin-top: 5rem;
+}
+
+.p-1 {
+    padding: 10rem;
+}
